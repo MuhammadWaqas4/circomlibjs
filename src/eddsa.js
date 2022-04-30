@@ -24,7 +24,7 @@ exports.pruneBuffer = pruneBuffer;
 
 
 function ensureBuffer(_buff) {
-    if (Buffer.isBuffer(_buff)) return buff;
+    if (Buffer.isBuffer(_buff)) return _buff;
     return Buffer.from(_buff);
 }
 
